@@ -1,0 +1,211 @@
+/* Nền gradient động */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(270deg, #ffdde1, #ee9ca7, #fbc2eb, #a6c1ee);
+    background-size: 800% 800%;
+    animation: gradientBG 20s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Lời chúc nổi bật */
+#greeting {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 48px; /* chữ to hơn nữa */
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff4081, #fbc2eb, #a6c1ee, #6fa3ef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 25px rgba(255,255,255,0.8);
+    animation: glowText 3s ease-in-out infinite alternate, fadeIn 2s ease forwards;
+    opacity: 0;
+}
+
+@keyframes glowText {
+    from {
+        text-shadow: 0 0 15px #ff80ab, 0 0 30px #ff4081;
+    }
+
+    to {
+        text-shadow: 0 0 25px #6fa3ef, 0 0 45px #4a90e2;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Hoa rơi */
+.flower {
+    position: fixed;
+    top: -50px;
+    font-size: 30px;
+    animation: fall 6s linear forwards;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+/* Sao lấp lánh */
+.star {
+    position: fixed;
+    width: 4px;
+    height: 4px;
+    background: white;
+    border-radius: 50%;
+    animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Bong bóng bay */
+.bubble {
+    position: fixed;
+    bottom: -50px;
+    animation: rise 8s linear forwards;
+}
+
+@keyframes rise {
+    to {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
+/* Dropdown chọn nhạc */
+#music-select {
+    margin: 20px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    color: #444;
+}
+
+    #music-select label {
+        margin-right: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+#songList {
+    padding: 8px 12px;
+    border: 2px solid #a3c4f3;
+    border-radius: 8px;
+    background: #f0f7ff;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    /* Hover đổi màu */
+    #songList:hover {
+        border-color: #6fa3ef;
+        background: #e6f0ff;
+    }
+
+    /* Khi focus (đang chọn) */
+    #songList:focus {
+        outline: none;
+        border-color: #4a90e2;
+        box-shadow: 0 0 6px rgba(74, 144, 226, 0.5);
+    }
+/* Sidebar menu */
+#sidebar {
+    background: #ffe4ec; /* nền hồng pastel */
+    padding: 20px;
+    width: 200px;
+    min-height: 100vh;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+    #sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #sidebar li {
+        margin: 15px 0;
+    }
+
+    #sidebar a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: #4a4a4a;
+        display: block;
+        padding: 10px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+        /* Hover hiệu ứng */
+        #sidebar a:hover {
+            background: linear-gradient(90deg, #ff80ab, #fbc2eb, #a6c1ee);
+            color: white;
+            transform: scale(1.05);
+        }
+
+/* Responsive: thu gọn menu trên mobile */
+@media (max-width: 768px) {
+    #sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        box-shadow: none;
+    }
+
+        #sidebar ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #sidebar li {
+            margin: 10px;
+        }
+}
+#weather-box {
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 12px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}

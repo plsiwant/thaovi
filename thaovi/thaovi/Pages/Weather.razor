@@ -1,0 +1,54 @@
+﻿@page "/weather"
+@inject IJSRuntime JS
+@inject HttpClient Http
+
+<div id="weather-box">
+    <h2>☀️ Thời tiết nơi bạn đang ở</h2>
+    @if (weatherInfo == null)
+    {
+        <p>Đang tải dữ liệu...</p>
+    }
+    else
+    {
+        <p>Nhiệt độ: @weatherInfo.Temp°C</p>
+        <p>Trạng thái: @weatherInfo.Description</p>
+        <p>Độ ẩm: @weatherInfo.Humidity%</p>
+    }
+</div>
+
+@code {
+    private WeatherData? weatherInfo;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // gọi hàm JS để lấy vị trí
+            var pos = await JS.InvokeAsync<Position>("getLocation");
+
+            string apiKey = "4582fab681536e2d8bb5fafdde81959a"; // thay bằng API key OpenWeatherMap
+            string url = $"https://api.openweathermap.org/data/2.5/weather?lat={pos.lat}&lon={pos.lon}&units=metric&lang=vi&appid={apiKey}";
+
+            var response = await Http.GetFromJsonAsync<WeatherResponse>(url);
+            if (response != null)
+            {
+                weatherInfo = new WeatherData
+                {
+                    Temp = response.Main.Temp,
+                    Humidity = response.Main.Humidity,
+                    Description = response.Weather[0].Description
+                };
+            }
+        }
+        catch
+        {
+            weatherInfo = new WeatherData { Temp = 0, Humidity = 0, Description = "Không lấy được dữ liệu" };
+        }
+    }
+
+    public class Position { public double lat { get; set; } public double lon { get; set; } }
+    public class WeatherData { public double Temp { get; set; } public int Humidity { get; set; } public string Description { get; set; } = ""; }
+    public class WeatherResponse { public WeatherMain Main { get; set; } = new(); public List<WeatherDesc> Weather { get; set; } = new(); }
+    public class WeatherMain { public double Temp { get; set; } public int Humidity { get; set; } }
+    public class WeatherDesc { public string Description { get; set; } = ""; }
+}

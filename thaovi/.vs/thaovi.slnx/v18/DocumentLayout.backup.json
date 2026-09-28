@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\coder_work\\Vs_Work\\c\u00E1 nh\u00E2n\\thaovi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF4C5EA-D4D1-8AC8-1584-8BEA2B0E06B7}|thaovi\\thaovi.csproj|d:\\coder_work\\vs_work\\c\u00E1 nh\u00E2n\\thaovi\\thaovi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AF4C5EA-D4D1-8AC8-1584-8BEA2B0E06B7}|thaovi\\thaovi.csproj|solutionrelative:thaovi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF4C5EA-D4D1-8AC8-1584-8BEA2B0E06B7}|thaovi\\thaovi.csproj|d:\\coder_work\\vs_work\\c\u00E1 nh\u00E2n\\thaovi\\thaovi\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AF4C5EA-D4D1-8AC8-1584-8BEA2B0E06B7}|thaovi\\thaovi.csproj|solutionrelative:thaovi\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\coder_work\\Vs_Work\\c\u00E1 nh\u00E2n\\thaovi\\thaovi\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "thaovi\\wwwroot\\index.html",
+              "ToolTip": "D:\\coder_work\\Vs_Work\\c\u00E1 nh\u00E2n\\thaovi\\thaovi\\wwwroot\\index.html",
+              "RelativeToolTip": "thaovi\\wwwroot\\index.html",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAqwIUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-28T22:56:15.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\coder_work\\Vs_Work\\c\u00E1 nh\u00E2n\\thaovi\\thaovi\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "thaovi\\Pages\\Home.razor",
+              "ToolTip": "D:\\coder_work\\Vs_Work\\c\u00E1 nh\u00E2n\\thaovi\\thaovi\\Pages\\Home.razor",
+              "RelativeToolTip": "thaovi\\Pages\\Home.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T22:56:38.604Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

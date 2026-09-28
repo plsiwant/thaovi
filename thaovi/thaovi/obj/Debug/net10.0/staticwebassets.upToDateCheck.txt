@@ -1,0 +1,129 @@
+wwwroot\css\app.css
+wwwroot\favicon.png
+wwwroot\icon-192.png
+wwwroot\icon-512.png
+wwwroot\index.html
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\dist\js\location.js
+wwwroot\lib\bootstrap\dist\js\notifications.js
+wwwroot\manifest.json
+wwwroot\manifest.webmanifest
+wwwroot\music\Anh Đánh Rơi Người Yêu Này.mp3
+wwwroot\music\Buông Bỏ Sự Phụ Thuộc Nơi Anh _ 离开我的依赖 (我来不及道声不安).mp3
+wwwroot\music\Canon in D (Piano).mp3
+wwwroot\music\Chúng Ta Không Thuộc Về Nhau.mp3
+wwwroot\music\Dạo Bước Hongkong 1999 _ 漫步香港1999.mp3
+wwwroot\music\Em Đang Nghĩ Gì.mp3
+wwwroot\music\Gửi Anh Xa Nhớ.mp3
+wwwroot\music\Hãy Trao Cho Anh.mp3
+wwwroot\music\Ngàn Năm Ánh Sáng.mp3
+wwwroot\music\Như Anh Đã Thấy Em.mp3
+wwwroot\music\Nơi Này Có Anh.mp3
+wwwroot\music\River Flows In You.mp3
+wwwroot\music\Sa Vào Nguy Hiểm _ 悬溺.mp3
+wwwroot\music\Tình Cờ Yêu Em.mp3
+wwwroot\music\Từng Là.mp3
+wwwroot\music\Từng Ngày Yêu Em.mp3
+wwwroot\music\Vết Mưa.mp3
+wwwroot\music\Yêu Em Rất Nhiều.mp3
+wwwroot\music\Âm Thầm Bên Em.mp3
+wwwroot\music\Đừng Làm Trái Tim Anh Đau.mp3
+wwwroot\music\你像风一样出现.mp3
+wwwroot\music\大风在刮大雪在下 (Bản Hợp Xướng).mp3
+wwwroot\sample-data\weather.json
+wwwroot\wishes.json
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\css\app.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\index.html
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\location.js
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\lib\bootstrap\dist\js\notifications.js
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\manifest.json
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\manifest.webmanifest
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\sample-data\weather.json
+D:\coder_work\Vs_Work\cá nhân\thaovi\thaovi\wwwroot\wishes.json

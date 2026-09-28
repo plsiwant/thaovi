@@ -1,0 +1,33 @@
+﻿@page "/"
+@inject HttpClient Http
+
+<div id="greeting-box">
+    <h1 class="title">💌 Lời chúc mỗi ngày 💌</h1>
+    <p id="message" class="wish-text">@currentMessage</p>
+
+    <button @onclick="ShowMessage">Nhận lời chúc 🎁</button>
+</div>
+
+@code {
+    private string[] messages;
+    private string currentMessage = "Bấm nút để nhận lời chúc";
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Đọc danh sách lời chúc từ file wishes.json
+        messages = await Http.GetFromJsonAsync<string[]>("wishes.json");
+        ShowMessage();
+    }
+
+    private void ShowMessage()
+    {
+        if (messages == null || messages.Length == 0)
+        {
+            currentMessage = "Chưa có lời chúc nào!";
+            return;
+        }
+
+        var rand = new Random();
+        currentMessage = messages[rand.Next(messages.Length)];
+    }
+}

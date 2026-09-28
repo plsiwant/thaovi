@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thảo vi</title>
+    <base href="/" />
+    <link href="css/app.css" rel="stylesheet" />
+    <script src="js/location.js"></script>
+</head>
+<body>
+    <!-- Thanh menu điều hướng -->
+    <nav id="sidebar">
+        <ul>
+            <li><a href="/">🏠 Home</a></li>
+            <li><a href="/counter">🔢 Counter</a></li>
+            <li><a href="/weather">☀️ Weather</a></li>
+            <li><a href="/about">ℹ️ About</a></li>
+        </ul>
+    </nav>
+    <div id="app">🌸 Đang tải...</div>
+
+    <!-- Lời chúc nổi bật -->
+    <div id="greeting">✨ Chúc bạn một ngày thật vui vẻ và hạnh phúc ✨</div>
+
+    <!-- Audio -->
+    <audio id="bgm" loop autoplay></audio>
+
+    <!-- Dropdown chọn nhạc -->
+    <div id="music-select">
+        <label for="songList">Chọn nhạc: </label>
+        <select id="songList" onchange="changeSong(this.value)">
+            <option value="music/Âm Thầm Bên Em.mp3">Âm Thầm Bên Em</option>
+            <option value="music/Anh Đánh Rơi Người Yêu Này.mp3">Anh Đánh Rơi Người Yêu Này</option>
+            <option value="music/Buông Bỏ Sự Phụ Thuộc Nơi Anh.mp3">Buông Bỏ Sự Phụ Thuộc Nơi Anh</option>
+            <option value="music/Canon in D (Piano).mp3">Canon in D (Piano)</option>
+            <option value="music/Chúng Ta Không Thuộc Về Nhau.mp3">Chúng Ta Không Thuộc Về Nhau</option>
+            <option value="music/Dạo Bước Hongkong 1999.mp3">Dạo Bước Hongkong 1999</option>
+            <option value="music/Đừng Làm Trái Tim Anh Đau.mp3">Đừng Làm Trái Tim Anh Đau</option>
+            <option value="music/Em Đang Nghĩ Gì.mp3">Em Đang Nghĩ Gì</option>
+            <option value="music/Gửi Anh Xa Nhớ.mp3">Gửi Anh Xa Nhớ</option>
+            <option value="music/Hãy Trao Cho Anh.mp3">Hãy Trao Cho Anh</option>
+            <option value="music/Ngàn Năm Ánh Sáng.mp3">Ngàn Năm Ánh Sáng</option>
+            <option value="music/Như Anh Đã Thấy Em.mp3">Như Anh Đã Thấy Em</option>
+            <option value="music/Nơi Này Có Anh.mp3">Nơi Này Có Anh</option>
+            <option value="music/River Flows In You.mp3">River Flows In You</option>
+            <option value="music/Sa Vào Nguy Hiểm.mp3">Sa Vào Nguy Hiểm</option>
+            <option value="music/Tình Cờ Yêu Em.mp3">Tình Cờ Yêu Em</option>
+            <option value="music/Từng Là.mp3">Từng Là</option>
+            <option value="music/Từng Ngày Yêu Em.mp3">Từng Ngày Yêu Em</option>
+            <option value="music/Vết Mưa.mp3">Vết Mưa</option>
+            <option value="music/Yêu Em Rất Nhiều.mp3">Yêu Em Rất Nhiều</option>
+            <option value="music/你像风一样出现.mp3">你像风一样出现</option>
+            <option value="music/大风在刮大雪在下.mp3">大风在刮大雪在下</option>
+        </select>
+    </div>
+
+    <script>
+        // Đổi bài nhạc
+        function changeSong(path) {
+            const audio = document.getElementById("bgm");
+            audio.src = path;
+            audio.play().catch(() => {});
+        }
+
+        // Tự động phát ngẫu nhiên khi load trang
+        document.addEventListener("DOMContentLoaded", () => {
+            const select = document.getElementById("songList");
+            const options = select.options;
+            const randomIndex = Math.floor(Math.random() * options.length);
+            select.selectedIndex = randomIndex;
+            changeSong(options[randomIndex].value);
+
+            // Nếu autoplay bị chặn, phát khi user click lần đầu
+            document.body.addEventListener("click", () => {
+                const audio = document.getElementById("bgm");
+                if (audio.paused) {
+                    audio.play().catch(() => {});
+                }
+            }, { once: true });
+        });
+
+        // Hoa rơi
+        document.addEventListener("DOMContentLoaded", () => {
+            setInterval(() => {
+                const flower = document.createElement("div");
+                flower.className = "flower";
+                flower.innerText = "🌸";
+                flower.style.left = Math.random() * window.innerWidth + "px";
+                document.body.appendChild(flower);
+                setTimeout(() => flower.remove(), 5000);
+            }, 1000);
+        });
+
+        // Sao lấp lánh
+        document.addEventListener("DOMContentLoaded", () => {
+            for (let i = 0; i < 100; i++) {
+                const star = document.createElement("div");
+                star.className = "star";
+                star.style.left = Math.random() * window.innerWidth + "px";
+                star.style.top = Math.random() * window.innerHeight + "px";
+                star.style.animationDuration = (Math.random() * 3 + 2) + "s";
+                document.body.appendChild(star);
+            }
+        });
+
+        // Bong bóng bay
+        document.addEventListener("DOMContentLoaded", () => {
+            setInterval(() => {
+                const bubble = document.createElement("div");
+                bubble.className = "bubble";
+                bubble.innerText = "🎈";
+                bubble.style.left = Math.random() * window.innerWidth + "px";
+                bubble.style.fontSize = (20 + Math.random() * 30) + "px";
+                document.body.appendChild(bubble);
+                setTimeout(() => bubble.remove(), 8000);
+            }, 1200);
+        });
+    </script>
+
+    <!-- Service Worker -->
+    <script>if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then(reg => console.log("Service Worker registered", reg))
+            .catch(err => console.error("SW registration failed", err));
+    }</script>
+
+    <!-- Notifications -->
+    <script src="js/notifications.js"></script>
+    <script>document.addEventListener("DOMContentLoaded", () => {
+        if (typeof requestNotificationPermission === "function") {
+            requestNotificationPermission();
+        }
+    });</script>
+
+    <!-- Blazor -->
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+</html>
