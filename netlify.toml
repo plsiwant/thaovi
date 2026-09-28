@@ -1,0 +1,12 @@
+# Blazor WebAssembly app located in thaovi/thaovi (targets .NET 10).
+# The Netlify build image only ships the .NET 8 SDK, so the build script
+# installs the .NET 10 SDK before publishing.
+[build]
+  command = "bash netlify-build.sh"
+  publish = "publish/wwwroot"
+
+# Client-side routing: serve index.html for unknown paths
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
